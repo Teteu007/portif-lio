@@ -25,6 +25,7 @@ header {
     font-size: 24px;
     font-weight: bold;
     margin-left: 20px;
+    
 }
 
 nav ul {
@@ -121,6 +122,28 @@ footer img{
     margin: 0 10px;
 }
 
+.imagem-portfolio {
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+
+.imagem-portfolio:hover {
+    content: url(image/1foto.png); 
+    transform: scale(1.05); 
+}
+
+.imagecontact{
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.imagecontact:hover {
+    content: url(image/whatsapp.png); 
+    transform: scale(1.05);
+}
+
+
 /* Media queries para telas menores */
 @media (max-width: 768px) {
     .logo {
@@ -138,4 +161,25 @@ footer img{
     .portfolio-item img {
         max-width: 80%;
     }
+}
+
+.imagem-portfolio {
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+
+.imagem-portfolio:hover {
+    content: url(image/1foto.png); 
+    transform: scale(1.05); 
+}
+
+.imagecontact{
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.imagecontact:hover {
+    content: url(image/whatsapp.png); 
+    transform: scale(1.05);
 }
