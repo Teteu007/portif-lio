@@ -130,7 +130,7 @@ footer img {
     transition: transform 0.3s;
 }
 
-
+/* Estilo de imagens */
 .imagem-portfolio:hover {
     content: url(image/1foto.png); 
     transform: scale(1.05); 
